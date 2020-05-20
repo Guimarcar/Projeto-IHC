@@ -2,15 +2,22 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.botao {
+  position: absolute;
+  /* background-color: green; */
+  /* color: white; */
+  /* padding: 0.4rem 1rem; */
+  right: 20.7rem;
+  bottom: 2.8rem;
+  /* cursor: pointer; */
+  /* text-decoration: none; */
+  /* box-shadow: 2px 2px 2px black; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-logo {
+  height: 35rem;
+  margin-top: 2rem;
+  pointer-events: none;
 }
 
 .App-header {
