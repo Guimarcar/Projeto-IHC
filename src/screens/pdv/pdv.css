@@ -1,0 +1,22 @@
+.pdv_off_img {
+  display: block;
+  position: relative;
+  z-index: 999;
+  width: 90%;
+  height: 39rem;
+  margin: auto;
+}
+
+.link,
+.link:hover {
+  text-decoration: none;
+  color: rgb(255, 141, 88);
+  font-size: 2rem;
+  position: absolute;
+  display: block;
+  right: 1rem;
+}
+
+.link:hover {
+  color: red;
+}

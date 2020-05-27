@@ -35,6 +35,6 @@
     ]
   },
   "devDependencies": {
-    "minimist": "^1.2.5"
+    "minimist": ">=1.2.3"
   }
 }

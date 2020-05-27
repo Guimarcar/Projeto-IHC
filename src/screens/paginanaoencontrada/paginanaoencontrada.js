@@ -1,10 +1,11 @@
 import React from "react";
 import "./paginanaoencontrada.css";
+import img_nfound from "../../_assets/404.png";
 
 function PaginaNaoEncontrada() {
   return (
     <>
-      <h1>PÁGINA NÃO ENCONTRADA</h1>
+      <img className="not_found_img" src={img_nfound} alt="IMAGEM 404" />
     </>
   );
 }

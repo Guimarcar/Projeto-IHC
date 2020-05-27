@@ -1,4 +1,5 @@
 import React from "react";
+// import { Component } from "react";
 import "./login.css";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
@@ -26,7 +27,7 @@ function Login() {
           <Form.Control type="password" placeholder="Entre com sua SENHA" />
         </Form.Group>
         <Link to="/pdv">
-          <Button variant="primary" type="submit" to="/pdv">
+          <Button variant="primary" type="submit" handleClick="clicar()">
             Entrar
           </Button>
         </Link>
