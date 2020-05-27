@@ -2,6 +2,7 @@ import React from "react";
 import "./login.css";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 import login_img from "../../_assets/login_image.jpg";
 
 function Login() {
@@ -24,9 +25,11 @@ function Login() {
           <Form.Label>Senha</Form.Label>
           <Form.Control type="password" placeholder="Entre com sua SENHA" />
         </Form.Group>
-        <Button variant="primary" type="submit">
-          Entrar
-        </Button>
+        <Link to="/pdv">
+          <Button variant="primary" type="submit" to="/pdv">
+            Entrar
+          </Button>
+        </Link>
       </Form>
     </>
   );
