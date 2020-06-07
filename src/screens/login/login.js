@@ -3,8 +3,8 @@ import React from "react";
 import "./login.css";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
-import { Link } from "react-router-dom";
 import login_img from "../../_assets/login_image.jpg";
+import Logado from "./service/logado.service";
 
 function Login() {
   return (
@@ -26,11 +26,9 @@ function Login() {
           <Form.Label>Senha</Form.Label>
           <Form.Control type="password" placeholder="Entre com sua SENHA" />
         </Form.Group>
-        <Link to="/pdv">
-          <Button variant="primary" type="submit" handleClick="clicar()">
-            Entrar
-          </Button>
-        </Link>
+        <Button variant="primary" matricula="aaa" senha="bbb" onClick={Logado}>
+          Entrar
+        </Button>
       </Form>
     </>
   );

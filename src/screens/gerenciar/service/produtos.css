@@ -1,0 +1,32 @@
+.titulo {
+  text-align: center;
+  background-color: rgb(121, 121, 121);
+  color: white;
+  box-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 1px black;
+}
+
+.lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.valor {
+  color: red;
+  font-size: 1.5rem;
+}
+
+.produtocard {
+  width: 20rem;
+  margin: 2rem;
+  padding: 2rem;
+  padding-bottom: -2rem;
+  border: rgb(119, 119, 119) solid 1px;
+}
+
+.produtoimg {
+  width: 10rem;
+  justify-content: center;
+}
